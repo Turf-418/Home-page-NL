@@ -1,0 +1,57 @@
+.card-block {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  margin-bottom: 2% !important;
+}
+
+a:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgb(0 0 0 / 0%) !important;
+  border-bottom: 1px solid rgb(0 0 0 / 0%) !important;
+}
+
+.card {
+  background-color: #ffffff0f !important;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.faqHeader {
+  font-size: 27px;
+  margin: 20px;
+  font-family: 'Baloo Paaji';
+  color: white;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+  font-family: 'Glyphicons Halflings';
+  content: "e072";
+  float: right;
+  color: #F58723;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #454444;
+}
+
